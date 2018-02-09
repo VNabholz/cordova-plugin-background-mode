@@ -1,3 +1,5 @@
+## THIS IS A FORK WITH THE UNDERSCORE FIX ! no future updates
+
 
 <p align="left">
     <b><a href="https://github.com/katzer/cordova-plugin-background-mode/tree/example">SAMPLE APP</a> :point_right:</b>
@@ -25,7 +27,7 @@ Use the plugin by your own risk!
 
 
 ## Installation
-THIS IS A FORK WITH THE UNDERSCORE FIX ! no future updates
+
 
 Execute from the projects root folder:
 
