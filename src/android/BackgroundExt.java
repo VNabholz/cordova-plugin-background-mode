@@ -46,7 +46,6 @@ import static android.content.Context.ACTIVITY_SERVICE;
 import static android.content.Context.POWER_SERVICE;
 import static android.view.WindowManager.LayoutParams.FLAG_ALLOW_LOCK_WHILE_SCREEN_ON;
 import static android.view.WindowManager.LayoutParams.FLAG_DISMISS_KEYGUARD;
-import static android.view.WindowManager.LayoutParams.FLAG_SHOW_WHEN_LOCKED;
 import static android.view.WindowManager.LayoutParams.FLAG_TURN_SCREEN_ON;
 
 class BackgroundExt {
@@ -291,7 +290,6 @@ class BackgroundExt {
             public void run() {
                 window.addFlags(
                         FLAG_ALLOW_LOCK_WHILE_SCREEN_ON |
-                        FLAG_SHOW_WHEN_LOCKED |
                         FLAG_TURN_SCREEN_ON |
                         FLAG_DISMISS_KEYGUARD
                 );
